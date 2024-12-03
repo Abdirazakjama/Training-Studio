@@ -1,0 +1,449 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: min(90%, 1120px);
+    margin-inline: auto;
+}
+
+.desktop-menu {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+
+header {
+    /* background-color: linear-gradient(rgba(108, 117, 125,0.7),rgba(108, 117, 125,0.7)); */
+    background-color: rgba(108, 117, 125, 0.702);
+    height: 5rem;
+    width: 100%;
+    box-shadow: 0 4px 10px #6c757db3;
+    position: sticky;
+    top: 0;
+    z-index: 1111;
+}
+
+span {
+    color: #ed563b;
+    font-weight: 900;
+}
+
+header h1 {
+    line-height: 80px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.color {
+    color: #ed563b;
+}
+
+.menu-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+
+}
+.menu-links a:hover{
+color: #ed563b;
+}
+.menu-links button {
+    padding: 15px;
+    background-color: #ed563b;
+    color: #fff;
+    border: none;
+}
+
+a {
+    color: #ed563b;
+}
+
+
+/* General Reset */
+
+/* Hero Section */
+.hero {
+    position: relative;
+}
+
+/* Video Styling */
+#bg-video {
+    /* position: relative; */
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 10%; */
+    object-fit: cover;
+    /* Ensures the video covers the entire section */
+    z-index: -1;
+    /* Places video behind the content */
+}
+
+
+/* Overlay */
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(108, 117, 125, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+/* Text Styling */
+.caption h6 {
+    font-size: 1.125rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: #ffff;
+}
+
+.caption h1 {
+    font-size: 5.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.caption p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Button Styling */
+.main-button a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #ff5733;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.main-button a:hover {
+    background: #e04a2b;
+}
+.choose-program{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+   
+   
+}
+
+.choose-program img{
+    width: 100px;
+}
+em{
+    color: #fff;
+}
+
+.choose-program h2{
+   margin: 150px 0px 0px 0px;;
+    color: black;
+    text-transform: uppercase;
+    color: #7A7A7A;
+}
+
+.col-lg-6{
+    display: flex;
+    gap: 30px;
+}
+.features-items{
+
+}
+.features-item{
+    display: flex;
+    gap: 25px;
+    margin-top: 4.375rem;
+}
+.left-icon img{
+    margin-bottom: 20px;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right-content h4{
+    font-size: 1.1875rem;
+}
+.right-content a{
+    text-decoration: none;
+}
+
+.bg-image{
+    /* position: absolute; */
+    background-image: url("https://plus.unsplash.com/premium_photo-1661920538067-c48451160c72?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 300px;
+    /* background-color: rgba(108, 117, 125, 0.9); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+
+    /* object-fit: cover; */
+}
+.center{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 300px;
+    background-color: rgba(108, 117, 125, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+}
+
+.center p{
+    color: white;
+    font-size: 1rem;
+}
+.col-1{
+    display: flex;
+    gap: 20px;
+
+    /* background-color: #7A7A7A; */
+    width: 349.99px;
+    /* border-radius: 10px; */
+    padding: 30px;
+    box-shadow: 0 4px 10px #6c757db3;
+    margin-bottom: 20px;
+    /* height: 95px; */
+}
+.col-1 img{
+    height: 35px;
+    width: 35px;
+}
+.col-1 p{
+    font-size: 19px;
+}
+.col-6{
+    width: 349.99px;
+/* color: white; */
+background-color: #eD563b;
+box-shadow: 0 4px 10px #6c757db3;
+padding: 20px;
+text-align: center;
+}
+
+.col-6 a{
+    color: white;
+    font-size: 19px;
+}
+.row{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.right h4{
+    font-size: 23px;
+}
+.right p{
+    font-size: 14px;
+    color: #7A7A7A;
+}
+
+.right a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #eD563b;
+    padding: 12px 20px;
+    width: 153px;
+}
+.trainer{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 30px;
+    margin-top: 50px;
+   
+
+}
+
+.trainer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 349.99px;
+    box-shadow: 0 4px 4px #6c757db3;
+    padding: 40px;
+}
+.icons i{
+    padding: 8px;
+}
+
+.days{
+    display: flex;
+    padding: 10px;
+    gap: 25px;
+  justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.days li{
+    list-style: none;
+    color: white;
+    font-size: 1rem;  
+   
+}
+table {
+    width: 950px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+td {
+    border: 1px solid #ddd;
+    padding: 40px;
+    color: #fff;
+}
+
+.bg-dark{
+    background-image: url("https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVvcGxlJTIwdHJhaW5pbmclMjBneW18ZW58MHx8MHx8fDA%3D");
+    height: 100%;
+    background-color: rgba(108, 117, 125, 0.1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.bg-content{
+    background-color: rgba(108, 117, 125, 0.9);
+    width: 100%;
+
+}
+
+.white{
+    color: #fff;
+}
+
+.top{
+margin-top: 70px;
+}
+
+.contact{
+    display: flex;
+    margin-top: 70px;
+    /* gap: 20px; */
+   
+}
+.form{
+    background-image: url("https://media.istockphoto.com/id/1348038408/photo/shot-of-a-young-man-using-the-ropes-in-the-gym-to-build-arm-strength.webp?a=1&b=1&s=612x612&w=0&k=20&c=Wlt_b2eq4RYcgOYIuZblRh4RtjOp-iCJxxO0hwmZzq4=");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.form-input{
+    width: 463px;
+    height: 350px;
+    background-color: #fff;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.text-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    /* justify-content: center; */
+    
+}
+.flex{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.subject{
+    width: 365px;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 365px
+}
+
+.button{
+    padding: 10px;
+    background-color: #eD563b;
+    margin-right: 270px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+input{
+    padding: 10px;
+}
+/* 
+
+.name{
+    width: 100%;
+} */
+
+.footer{
+    text-align: center;
+
+}
+.footer a{
+text-decoration: none;}
+/* Responsive Design */
